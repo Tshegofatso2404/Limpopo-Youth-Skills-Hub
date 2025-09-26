@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Body */
+body {
+  background-color: #F5F5DC; /* beige */
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333333; /* dark text */
+}
+
+/* Header and Footer */
+header {
+  text-align: center;
+  padding: 15px;
+  background-color: #444444; /* dark gray */
+  color: #FFFFFF;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #444444;
+  color: #FFFFFF;
+}
+
+footer .social-icons {
+  margin-bottom: 10px;
+}
+
+footer .social-icons a {
+  margin: 0 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #FFD700; /* gold hover */
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  margin: 10px 0;
+}
+
+nav a {
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFD700; /* gold accent on hover */
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Content Boxes */
+.content-box, form, .info-box, .section-box {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FFFFFF; /* white box */
+  border: 1px solid #CCCCCC; /* subtle border */
+  border-radius: 8px;
+}
+
+/* Headings */
+h1, h2 {
+  margin-top: 0;
+  color: #333333;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Forms */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #AAA;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #666666; /* medium gray */
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #333333; /* dark hover */
+}
+
+/* Message/Response */
+#response {
+  text-align: center;
+  font-weight: bold;
+  color: green;
+  margin-top: 20px;
+}
+
+/* Map container */
+.map-container iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border: 0;
+  border-radius: 8px;
+}

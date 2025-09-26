@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration - Limpopo Youth Skills Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <p>Empowering Youth Through Skills and Education</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="enquiry.html">Enquiry</a>
+    <a href="contact.html">Contact</a>
+    <a href="register.html">Register</a>
+  </nav>
+
+  <main>
+    <h1 class="page-title">Registration Form</h1>
+    <form action="#" method="post" class="intro-text">
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="program">Choose a Program:</label><br>
+      <select id="program" name="program" required>
+        <option value="">-- Select a program --</option>
+        <option value="it">Information Technology Skills</option>
+        <option value="entrepreneurship">Entrepreneurship Training</option>
+        <option value="creative">Creative Arts and Media</option>
+        <option value="personal">Personal Development</option>
+      </select><br><br>
+
+      <label for="message">Additional Notes:</label><br>
+      <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+      <input type="submit" value="Register">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Limpopo Youth Skills Hub. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
